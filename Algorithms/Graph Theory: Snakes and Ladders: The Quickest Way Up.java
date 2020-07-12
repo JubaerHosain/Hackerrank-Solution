@@ -32,7 +32,7 @@ public class Solution {
         }
     }
     
-    public void DFS(int src){
+    public void BFS(int src){
         Queue<Integer> queue = new LinkedList<Integer>();
         
         queue.add(src);
